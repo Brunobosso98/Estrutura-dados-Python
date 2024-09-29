@@ -4,6 +4,7 @@ frutas = ("laranja", "pera", "uva,")
 print (frutas[0])
 
 letra = tuple("python")
+print(letra)
 
 numeros = tuple([1, 2, 3, 4])
 
