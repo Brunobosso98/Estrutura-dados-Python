@@ -1,0 +1,7 @@
+# Atualizar o código, dividi-lo em funções específicas para cada ação.
+
+# Criar uma função para cadastrar usuário (cliente)
+# Criar uma função para cadastrar uma conta bancária vinculada ao usuário
+
+# Criar uma função de saque
+# Criar uma função de depósito
