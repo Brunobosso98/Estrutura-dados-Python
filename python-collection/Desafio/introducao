@@ -2,6 +2,7 @@
 
 # Criar uma função para cadastrar usuário (cliente)
 # Criar uma função para cadastrar uma conta bancária vinculada ao usuário
+# Cada conta é composta por: agencia (0001), número da conta e usuário. O usuário pode ter mais de uma conta, mas uma conta pertence a um uníco usuário
 
 # Criar uma função de saque
 # Criar uma função de depósito

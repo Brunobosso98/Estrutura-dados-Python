@@ -1,6 +1,6 @@
 # Append
 lista = []
-lista.append("Python")
+lista.append("Python", "corno")
 print(lista)
 
 # Clear *limpa lista

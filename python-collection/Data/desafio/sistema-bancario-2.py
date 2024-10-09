@@ -1,5 +1,8 @@
 import datetime
 
+def cliente():
+    nome = input("Informe o nome para cadastro: ")
+
 def depositar(saldo, extrato, numero_transacoes, LIMITE_TRANSACOES):
     if numero_transacoes >= LIMITE_TRANSACOES:
         print(f"Limite de {LIMITE_TRANSACOES} transações diárias atingido. Tente novamente amanhã.\n")
