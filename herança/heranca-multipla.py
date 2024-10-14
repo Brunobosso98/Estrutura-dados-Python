@@ -24,11 +24,18 @@ class Gato(Mamifero):
 class Leao(Mamifero):
   pass
 
-class Ornitorrinco(Mamifero, Ave):
-  pass
+class FalarMixin:
+  def falar(self):
+    return "to falando pae"
+
+class Ornitorrinco(Mamifero, Ave, FalarMixin):
+  def __init__(self, cor_bico, cor_pelo, nro_patas):
+#    print(Ornitorrinco.__mro__)
+    super().__init__(cor_pelo=cor_pelo, cor_bico=cor_bico, nro_patas=nro_patas)
 
 gato = Gato(nro_patas=4, cor_pelo="Pretao")
 print(gato)
 
 ornitorrinco = Ornitorrinco(nro_patas=4, cor_pelo="Verde", cor_bico="Transparente")
 print(ornitorrinco)
+print(ornitorrinco.falar())
