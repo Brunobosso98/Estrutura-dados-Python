@@ -23,13 +23,9 @@ class Bicicleta:
   def __str__(self):
     return f"A {self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"    
 
-# Defino a bicicleta vendida
 b1 = Bicicleta('Azul', "First", 2017, 900)
-# Executo a função com base na b1
 Bicicleta.buzinar(b1)
-# Mostro a cor da b1
 print(b1.cor)
-# Mostro a bicicleta correta
 print(b1)
 
 Bicicleta.pedalar(b1)
